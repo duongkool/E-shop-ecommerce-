@@ -1,0 +1,149 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.avatar-impoprt i{
+  height: 10px;
+  width: 10px;
+}
+.cart_info table tr {
+
+}
+.cart_delete {
+  /* display: flex; */
+  margin-top: 16%;
+
+}
+.cart_delete .cart_quantity_edit  {
+  margin-right: 12px ;
+}
+.cart_product img {
+  height: 45px;
+  width: 61px;
+
+}
+button.btn.btn-default.update { 
+  margin: 0;
+  float: right;
+  margin-bottom: 30px;
+}
+.second-media input {
+  outline: none !important;
+  padding: 10px;
+  width: 70%;
+}
+.second-media .reply-conten {
+  display: flex;
+  gap: 10px;
+
+}
+.second-media button {
+  margin: 0!important;
+ 
+}
+.image_update {
+  display: flex;
+  gap: 10px;
+
+}
+.overlay_more {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.newarrival {
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+#similar-product {
+  height: 84px;
+  width: 330px;
+}
+#similar-product .item img {
+  object-fit: cover;
+  width: 84px;
+  height: 84px;
+}
+.carousel-inner .item.active {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+.modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-body img {
+  width: 550px;
+  height: 480px;
+}
+.cart_total_tr {
+
+}
+p.cart_total_price {
+  flex: 1;
+    text-align: right;
+
+}
+.cart_count {
+  position: relative !important;
+}
+.list_wish {
+  position: relative !important;
+}
+.list_wish span {
+  position: absolute !important;
+    background-color: red;
+    text-align: center;
+    top: -15px;
+    color: white;
+    right: -11px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.cart_count span {
+  position: absolute !important;
+  background-color: red;
+  text-align: center;
+  top: -15px;
+  color: white;
+  right: 19px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
